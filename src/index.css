@@ -70,3 +70,37 @@ html, body, #root {
   font-family: oblique, sans-serif;
   font-size: 1rem;
 }
+
+.projects-section {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 15px 60px;
+  text-align: center;
+}
+
+.projects-heading {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 800;
+  font-size: 1.4rem;
+  color: transparent;
+  -webkit-text-stroke: 1px #222;
+  margin-bottom: 20px;
+}
+
+.projects-list {
+  list-style: none;
+}
+
+.project > a {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.project > p {
+  font-family: oblique, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 6px;
+}
