@@ -2,8 +2,8 @@ import React from "react"
 
 export default function NavBar() {
     return (
-        <div className="nav-header">
-            <h2 className="style-outline">omid</h2>
-        </div>
+        <header className="nav">
+            <a href="#top" className="nav-name">omid sharghi</a>
+        </header>
     )
 }
